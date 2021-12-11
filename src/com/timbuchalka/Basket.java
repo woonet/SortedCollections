@@ -19,7 +19,6 @@ public class Basket {
     private final Map<StockItem, Integer> list;
 
     public Basket(String name) {
-        System.out.println("test");
         this.name = name;
         this.list = new TreeMap<>();
     }
