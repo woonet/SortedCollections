@@ -6,19 +6,20 @@ import java.util.TreeMap;
 
 /**
  * SortedCollections
- * 
+ *
  * Basket.java
- * 
+ *
  * From Tim Buchalka's Complete Java Developer Course
  * Copyright (c) 2015-2016
  * Contact author at:  http://timbuchalka.com
- * 
+ *
  */
 public class Basket {
     private final String name;
     private final Map<StockItem, Integer> list;
 
     public Basket(String name) {
+        System.out.println("test");
         this.name = name;
         this.list = new TreeMap<>();
     }
